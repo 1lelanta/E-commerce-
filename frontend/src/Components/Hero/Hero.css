@@ -1,6 +1,6 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, #add8e6, #ffffff);
+    background: linear-gradient(180deg, #e1f0ff 0%, #e6f0ff22 60%);
     display: flex;
 }
 .hero-left{
@@ -19,7 +19,7 @@
 }
 .hero-left p{
     color: #171717;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 700;
 }
 .hero-hand-icon{
