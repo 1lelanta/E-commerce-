@@ -1,0 +1,34 @@
+.shopcategory-banner {
+  display: block;
+  margin: 30px auto;
+  width: 82%;
+}
+
+/* New container that aligns the sort and product grid with the banner */
+.shopcategory-main {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.shopcategory-indexSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shopcategory-sort {
+  padding: 5px 10px;
+  border-radius: 80px;
+  border: 1px solid #888;
+}
+
+.shopcategory-indexSort p span {
+  font-weight: 600;
+}
+
+.shopcategory-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px 20px;
+}
