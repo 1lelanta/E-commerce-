@@ -8,17 +8,17 @@ const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext)
 
   return (
-    <div className='shop-category'>
-      <img className='shopcategory-banner' src={props.banner} alt="Category Banner" />
+    <div className="shop-category">
+      <img className="shopcategory-banner" src={props.banner} alt="Category Banner" />
 
-      {/* unified wrapper for aligned layout */}
-      <div className="shopcategory-main">
+      {/* ✅ Unified wrapper */}
+      <div className="shopcategory-container">
         <div className="shopcategory-indexSort">
           <p>
-            <span>Showing 1-12</span> out of 36 products
+            <span>Showing 1–12</span> out of 36 products
           </p>
           <div className="shopcategory-sort">
-            Sort by <img src={dropdown_icon} alt="" />
+            Sort by <img src={dropdown_icon} alt="Sort icon" />
           </div>
         </div>
 

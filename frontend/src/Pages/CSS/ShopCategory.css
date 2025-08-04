@@ -4,8 +4,7 @@
   width: 82%;
 }
 
-/* New container that aligns the sort and product grid with the banner */
-.shopcategory-main {
+.shopcategory-container {
   width: 82%;
   margin: 0 auto;
 }
@@ -18,9 +17,20 @@
 }
 
 .shopcategory-sort {
-  padding: 5px 10px;
-  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 40px;
   border: 1px solid #888;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.shopcategory-sort img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
 }
 
 .shopcategory-indexSort p span {
@@ -30,5 +40,6 @@
 .shopcategory-products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
   gap: 80px 20px;
 }
