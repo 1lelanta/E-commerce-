@@ -83,3 +83,20 @@
     background: red;
     color: white;
 }
+.drop-down{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.drop-down select{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.drop-down select option{
+    font-size: 18px;
+    gap: 10px;
+    font-weight: 400px;
+}
