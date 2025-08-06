@@ -324,6 +324,39 @@ let all_product = [
     new_price: 85.0,
     old_price: 120.5,
   },
+  {
+  id: 37,
+  name: "Stylish Leather Belt for Men",
+  category: "belt",
+  image: p1_img,
+  new_price: 40.0,
+  old_price: 65.0,
+},
+{
+  id: 38,
+  name: "Classic Analog Watch",
+  category: "watch",
+  image: p2_img,
+  new_price: 120.0,
+  old_price: 180.0,
+},
+{
+  id: 39,
+  name: "Running Shoes - Lightweight",
+  category: "shoes",
+  image: p3_img,
+  new_price: 90.0,
+  old_price: 130.0,
+},
+{
+  id: 40,
+  name: "Comfy Cotton Socks - Pack of 3",
+  category: "socks",
+  image: p4_img,
+  new_price: 15.0,
+  old_price: 25.0,
+},
+
 ];
 
 export default all_product;
